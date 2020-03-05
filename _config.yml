@@ -2,6 +2,13 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 title: web test
 include:
-  page2.md
+  - page2.md
 steps:
 - title: page 1
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+

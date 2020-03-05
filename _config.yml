@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 markdown: kramdown
 title: web test
+include:
+  page2.md
 steps:
 - title: page 1
